@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RhinoUI major_ver="3" minor_ver="0" guid="7b886284-d85f-4cb9-bf1a-fd640b0b60cc" plug_in_guid="5250d078-2dc8-8f28-920c-30ea2b628af0" localize="False" default_language_id="1033" dpi_scale="125">
+  <extend_rhino_menus>
+    <menu guid="d58ceae7-fdb0-4104-80da-274b94ad44a9">
+      <text>
+        <locale_1033>Extend Rhino Menus</locale_1033>
+      </text>
+    </menu>
+  </extend_rhino_menus>
+  <menus>
+    <menu guid="9149ad6a-b204-4d4f-b98b-76a103aa370d">
+      <text>
+        <locale_1033>3D Builder</locale_1033>
+      </text>
+      <menu_item guid="833556f9-677b-4ebd-b2ee-d10662f50839">
+        <text>
+          <locale_1033>3D Facade</locale_1033>
+        </text>
+        <macro_id>e6052a52-ace3-4e3d-a49e-ddd61dcf60ae</macro_id>
+      </menu_item>
+      <menu_item guid="8d4268bf-9315-4b99-8e60-746cb370a234">
+        <text>
+          <locale_1033>3D Ceiling</locale_1033>
+        </text>
+        <macro_id>7e267c36-2a2f-48aa-9330-04572a6d2f8b</macro_id>
+      </menu_item>
+      <menu_item guid="1cd621bc-fb11-4dbf-94fc-de092d38cf34">
+        <text>
+          <locale_1033>3D Interior</locale_1033>
+        </text>
+        <macro_id>10af7055-b05d-47eb-8468-f4e5704be0ef</macro_id>
+      </menu_item>
+      <menu_item guid="3e299b5d-ff51-4fba-8067-b3c470f425ef">
+        <text>
+          <locale_1033>3D Roof</locale_1033>
+        </text>
+        <macro_id>e9e7963a-6144-4bdc-a4ab-78a7c71f950c</macro_id>
+      </menu_item>
+      <menu_item guid="0d48a9dd-60bd-41a2-87ae-0c6b83bbba8f">
+        <text>
+          <locale_1033>3D Building</locale_1033>
+        </text>
+        <macro_id>cefcc49f-1737-4360-9176-1de72525b0e9</macro_id>
+      </menu_item>
+    </menu>
+  </menus>
+  <tool_bar_groups>
+    <tool_bar_group guid="1eff1931-8542-4498-ae29-662ae5a4197f" dock_bar_guid32="00000000-0000-0000-0000-000000000000" dock_bar_guid64="3e35f416-82ad-4d90-8491-2152501aaafc" active_tool_bar_group="95a64e7b-4e57-4c1a-a1c0-b21c775b66a8" single_file="False" hide_single_tab="False" point_floating="11,82">
+      <text>
+        <locale_1033>3D Builder</locale_1033>
+      </text>
+      <tool_bar_group_item guid="95a64e7b-4e57-4c1a-a1c0-b21c775b66a8" major_version="1" minor_version="1">
+        <text>
+          <locale_1033>3D Builder</locale_1033>
+        </text>
+        <tool_bar_id>6668c60a-ffe2-4efc-850e-77e898a3b2b8</tool_bar_id>
+      </tool_bar_group_item>
+      <dock_bar_info dpi_scale="125" dock_bar="False" docking="True" horz="False" visible="True" floating="False" mru_float_style="8192" bar_id="59488" mru_width="868" point_pos="0,30" float_point="11,82" rect_mru_dock_pos="0,30,1920,68" dock_location_u="59419" dock_location="top" float_size="512,65" />
+    </tool_bar_group>
+  </tool_bar_groups>
+  <tool_bars>
+    <tool_bar guid="6668c60a-ffe2-4efc-850e-77e898a3b2b8" item_display_style="control_and_text">
+      <text>
+        <locale_1033>3D Builder</locale_1033>
+      </text>
+      <tool_bar_item guid="b4155b8b-4656-444e-9cdc-f1f1d0a40d8a">
+        <text>
+          <locale_1033>Toolbar item 00</locale_1033>
+        </text>
+        <left_macro_id>e6052a52-ace3-4e3d-a49e-ddd61dcf60ae</left_macro_id>
+      </tool_bar_item>
+      <tool_bar_item guid="d6ab3595-93f8-4dfe-9b78-9b1ad10805a9">
+        <text>
+          <locale_1033>Toolbar item 01</locale_1033>
+        </text>
+        <left_macro_id>7e267c36-2a2f-48aa-9330-04572a6d2f8b</left_macro_id>
+      </tool_bar_item>
+      <tool_bar_item guid="90eb5632-6c73-44f7-b645-b85c687bfad7">
+        <text>
+          <locale_1033>Toolbar item 02</locale_1033>
+        </text>
+        <left_macro_id>10af7055-b05d-47eb-8468-f4e5704be0ef</left_macro_id>
+      </tool_bar_item>
+      <tool_bar_item guid="05015b69-d555-47b2-8db0-eb47212cc193">
+        <text>
+          <locale_1033>Toolbar item 03</locale_1033>
+        </text>
+        <left_macro_id>e9e7963a-6144-4bdc-a4ab-78a7c71f950c</left_macro_id>
+      </tool_bar_item>
+      <tool_bar_item guid="78a35a0d-c39c-46c2-b48d-e7f72990e113">
+        <text>
+          <locale_1033>Toolbar item 04</locale_1033>
+        </text>
+        <left_macro_id>cefcc49f-1737-4360-9176-1de72525b0e9</left_macro_id>
+      </tool_bar_item>
+      <tool_bar_item guid="3b47724e-ce13-40a1-9f20-e758a673e6aa">
+        <text>
+          <locale_1033>Toolbar item</locale_1033>
+        </text>
+      </tool_bar_item>
+    </tool_bar>
+  </tool_bars>
+  <macros>
+    <macro_item guid="e6052a52-ace3-4e3d-a49e-ddd61dcf60ae" bitmap_id="60d7de33-0bfc-4d25-b19c-ddb57ebfc013">
+      <text>
+        <locale_1033>3D Facade</locale_1033>
+      </text>
+      <tooltip>
+        <locale_1033>Start 3D Builder in separate window</locale_1033>
+      </tooltip>
+      <help_text>
+        <locale_1033>Start 3D Builder </locale_1033>
+      </help_text>
+      <button_text>
+        <locale_1033>3D Facade</locale_1033>
+      </button_text>
+      <menu_text>
+        <locale_1033>3D Facade</locale_1033>
+      </menu_text>
+      <script>Noecho
+-_Grasshopper
+_Window
+_Show
+_Window
+_Hide
+_Enter
+-_import
+"C:\3D Builder\Layers &amp; materials\Layers &amp; Materials.3dm"
+_Enter
+_3Dbuilder_Facade</script>
+    </macro_item>
+    <macro_item guid="7e267c36-2a2f-48aa-9330-04572a6d2f8b" bitmap_id="6e49aa25-f8ce-47f9-9d85-4c2f0c9021f7">
+      <text>
+        <locale_1033>3D Ceiling</locale_1033>
+      </text>
+      <tooltip>
+        <locale_1033>Start 3D Builder in separate window</locale_1033>
+      </tooltip>
+      <help_text>
+        <locale_1033>Start 3D Builder </locale_1033>
+      </help_text>
+      <button_text>
+        <locale_1033>3D Ceiling</locale_1033>
+      </button_text>
+      <menu_text>
+        <locale_1033>3D Ceiling</locale_1033>
+      </menu_text>
+      <script>Noecho
+-_Grasshopper
+_Window
+_Show
+_Window
+_Hide
+_Enter
+-_import
+"C:\3D Builder\Layers &amp; materials\Layers &amp; Materials.3dm"
+_Enter
+_3Dbuilder_ceiling</script>
+    </macro_item>
+    <macro_item guid="10af7055-b05d-47eb-8468-f4e5704be0ef" bitmap_id="1317f298-4064-4318-9fff-df78c0284da2">
+      <text>
+        <locale_1033>3D Interior</locale_1033>
+      </text>
+      <tooltip>
+        <locale_1033>Start 3D Builder in separate window</locale_1033>
+      </tooltip>
+      <help_text>
+        <locale_1033>Start 3D Builder </locale_1033>
+      </help_text>
+      <button_text>
+        <locale_1033>3D Interior</locale_1033>
+      </button_text>
+      <menu_text>
+        <locale_1033>3D Interior</locale_1033>
+      </menu_text>
+      <script>Noecho
+-_Grasshopper
+_Window
+_Show
+_Window
+_Hide
+_Enter
+-_import
+"C:\3D Builder\Layers &amp; materials\Layers &amp; Materials.3dm"
+_Enter
+_3Dbuilder_interior</script>
+    </macro_item>
+    <macro_item guid="e9e7963a-6144-4bdc-a4ab-78a7c71f950c" bitmap_id="185700b7-ebc6-4b9f-960d-27781d1ae824">
+      <text>
+        <locale_1033>3D Roof</locale_1033>
+      </text>
+      <tooltip>
+        <locale_1033>Start 3D Builder in separate window</locale_1033>
+      </tooltip>
+      <help_text>
+        <locale_1033>Start 3D Builder </locale_1033>
+      </help_text>
+      <button_text>
+        <locale_1033>3D Roof</locale_1033>
+      </button_text>
+      <menu_text>
+        <locale_1033>3D Roof</locale_1033>
+      </menu_text>
+      <script>Noecho
+-_Grasshopper
+_Window
+_Show
+_Window
+_Hide
+_Enter
+-_import
+"C:\3D Builder\Layers &amp; materials\Layers &amp; Materials.3dm"
+_Enter
+_3Dbuilder_roof</script>
+    </macro_item>
+    <macro_item guid="cefcc49f-1737-4360-9176-1de72525b0e9" bitmap_id="36d2c02f-c4c4-42dd-9d49-c79f70bdb234">
+      <text>
+        <locale_1033>3D Building</locale_1033>
+      </text>
+      <tooltip>
+        <locale_1033>Start 3D Builder in separate window</locale_1033>
+      </tooltip>
+      <help_text>
+        <locale_1033>Start 3D Builder </locale_1033>
+      </help_text>
+      <button_text>
+        <locale_1033>3D Building</locale_1033>
+      </button_text>
+      <menu_text>
+        <locale_1033>3D Building</locale_1033>
+      </menu_text>
+      <script>Noecho
+-_Grasshopper
+_Window
+_Show
+_Window
+_Hide
+_Enter
+-_import
+"C:\3D Builder\Layers &amp; materials\Layers &amp; Materials.3dm"
+_Enter
+_3Dbuilder_Building</script>
+    </macro_item>
+  </macros>
+  <bitmaps>
+    <small_bitmap item_width="16" item_height="16">
+      <bitmap_item guid="60d7de33-0bfc-4d25-b19c-ddb57ebfc013" index="0" />
+      <bitmap_item guid="b48d900d-80b1-421a-9f4e-09c2ae75c8ad" index="1" />
+      <bitmap_item guid="6e49aa25-f8ce-47f9-9d85-4c2f0c9021f7" index="2" />
+      <bitmap_item guid="9a97dcad-f7a2-4701-9622-5f79eefc04f1" index="3" />
+      <bitmap_item guid="1317f298-4064-4318-9fff-df78c0284da2" index="4" />
+      <bitmap_item guid="b06763e9-2acc-4ea5-b648-73a70a0c836f" index="5" />
+      <bitmap_item guid="185700b7-ebc6-4b9f-960d-27781d1ae824" index="6" />
+      <bitmap_item guid="802333e4-0a07-4451-9d7d-c642da8c8eae" index="7" />
+      <bitmap_item guid="36d2c02f-c4c4-42dd-9d49-c79f70bdb234" index="8" />
+      <bitmap>iVBORw0KGgoAAAANSUhEUgAAABAAAACgCAYAAAAFOewUAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAJYSURBVGhD7dTPa9NgGMDxTDwMhlMv6h/gLGOb
+U+Zls8mbN3lXnAcPCt48eFFB0EuhQ5DNix48eXNDNhhMO+yPNEk7o5bivIhevCistvnVdNVVOxnT
+XRyvb7KADjwIIoo+H3jh7ds85IXAlwMAgH8RpW1o2mr/4SpZ7US3uiXVGkGl0vZwYiukv9snqd6E
+pLoTYs6ZxKpzBylWsJeN5pSQta6IOTshavaUnPEOhGOb2Ft2kXtWtzzn9uGk2U9mK13S3epef4/n
+zIh/A25sbJv/LFbMiHS/ehGnzDPBsM+/ZnTW2e3vh2caHcFhgLaFmy1IqnZc1NwNUXEuh0ds0Kjs
+QTnzqpCt9OG0GZf8K6fNBM5YozhrjcvJKpFVa5AUW7dFvU6lJ+tUyNk3wnGOO1YodyKlSoZnXnag
+5OtenFzsZ1c9yK4qoFSVkLR54qjqrQw+XqNIsenZF+tUzjvj4fg3OOucI49ao5JWT2C9PjqkNHf4
+50c0t1fOL9HJVy1qlJfpzTdfqKC614Oh7+Gc0xMzmgNYXwpWeMztnF48dNqo0fKHNfq8tUFHFj7T
+gYxzIfzb/4xunH26GK/ap8QHjQSvunG2j+PiyjVecQU83+ghRpPKxVUazb9d4NXa+XB0E2YPCVqt
+Syh4h/lCPYZ0h/gLF9/HBN2+RJ5+0gTV+4gfrp7cf+tZZzj28/B8M8Lr3lD4E/we/18PsFb7Az2I
+Qg80BD3460EPoAcM9AAEoAfQAwZ6AALQA+gBAz0AAegB9ICBHoAA9AB6wEAPQAB6AD1goAcAAPCr
+OO4rJVFLHQ3l+a8AAAAASUVORK5CYII=</bitmap>
+    </small_bitmap>
+    <normal_bitmap item_width="24" item_height="24">
+      <bitmap_item guid="60d7de33-0bfc-4d25-b19c-ddb57ebfc013" index="0" />
+      <bitmap_item guid="b48d900d-80b1-421a-9f4e-09c2ae75c8ad" index="1" />
+      <bitmap_item guid="6e49aa25-f8ce-47f9-9d85-4c2f0c9021f7" index="2" />
+      <bitmap_item guid="9a97dcad-f7a2-4701-9622-5f79eefc04f1" index="3" />
+      <bitmap_item guid="1317f298-4064-4318-9fff-df78c0284da2" index="4" />
+      <bitmap_item guid="b06763e9-2acc-4ea5-b648-73a70a0c836f" index="5" />
+      <bitmap_item guid="185700b7-ebc6-4b9f-960d-27781d1ae824" index="6" />
+      <bitmap_item guid="802333e4-0a07-4451-9d7d-c642da8c8eae" index="7" />
+      <bitmap_item guid="36d2c02f-c4c4-42dd-9d49-c79f70bdb234" index="8" />
+      <bitmap>iVBORw0KGgoAAAANSUhEUgAAABgAAADwCAYAAAAaYKQXAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAHVSURBVHhe7dbNSgJRGIBho0XQqltoH7SIlv5V
+hkHboCvpNqR2rYJ+sITQVOgCWgUuo0A0HQsJonZRFHVybE6cM1/5U7NxeB/4QGeaczxK8EaAvpJF
+R3kvB5M8cdSgE803m/qZRKk13EZ/4W60nKvNeW9tSwfX8YVsY8U/qd3aTHynMWVeW8upce8xIbVf
+23A3iig15l0KVnqvttj9yob9bQbhLqzn1w0S+cabO+7r5HH9sdekDuuF7jMl+8fvucEw0pvVCf/C
+egL7itzF5rNXajrXVpmzqooVHPX0/NJ/A/8n0uPd/uZeWy9cKu2i2e7+XWAnmD2qq63KrWrfPyj1
+8a4y561gN9AnMydRvvl58US51bn59S8fKzqvvab7QId/ce/y/8VPb1Sy82H0wqvblUnvVrCixdad
+9xLAyKKL6CKJLqKLBH0yc+giC10EhAFdRBdJdBFdJOiTmUMXWegiIAzoIrpIoovoIkGfzBy6yEIX
+AWFAF9FFEl1EFwn6ZObQRRa6CAgDuogukugiukjQJzOHLrLQRUAY0EV0kUQX0UWCPpk5dJGFLgLC
+gC6iiyS6iC4S9MnMoYssdBEQBnQRXSTRRXSRoE9mDl1koYsAAAAwGiKRT6wJR0LQSgxwAAAAAElF
+TkSuQmCC</bitmap>
+    </normal_bitmap>
+    <large_bitmap item_width="32" item_height="32">
+      <bitmap_item guid="60d7de33-0bfc-4d25-b19c-ddb57ebfc013" index="0" />
+      <bitmap_item guid="b48d900d-80b1-421a-9f4e-09c2ae75c8ad" index="1" />
+      <bitmap_item guid="6e49aa25-f8ce-47f9-9d85-4c2f0c9021f7" index="2" />
+      <bitmap_item guid="9a97dcad-f7a2-4701-9622-5f79eefc04f1" index="3" />
+      <bitmap_item guid="1317f298-4064-4318-9fff-df78c0284da2" index="4" />
+      <bitmap_item guid="b06763e9-2acc-4ea5-b648-73a70a0c836f" index="5" />
+      <bitmap_item guid="185700b7-ebc6-4b9f-960d-27781d1ae824" index="6" />
+      <bitmap_item guid="802333e4-0a07-4451-9d7d-c642da8c8eae" index="7" />
+      <bitmap_item guid="36d2c02f-c4c4-42dd-9d49-c79f70bdb234" index="8" />
+      <bitmap>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</bitmap>
+    </large_bitmap>
+  </bitmaps>
+  <scripts />
+</RhinoUI>

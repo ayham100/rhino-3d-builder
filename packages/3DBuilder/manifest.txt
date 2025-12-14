@@ -1,0 +1,12 @@
+1.0
+name: 3DBuilder
+version: 1.0
+authors:
+  - Ayham Sami Alkhazendar
+description: >
+ Revolutionize your design process in Rhino3D with 3D Builder!
+This plugin transforms dimensions into intricate 3D models effortlessly. 
+ url: https://rhino3dbuilder.com/
+icon: 3DBUILDER.png
+keywords:
+- something
