@@ -1,0 +1,9 @@
+---
+name: human
+version: 1.2.0
+authors:
+- Andrew Heumann
+description: Assorted utilities for interacting with Rhino in new and fun ways, and other random bits
+url: https://discourse.mcneel.com/c/grasshopper/human
+secret:
+  id: 5f86fa9f-c62b-50e8-157b-b454ef3e00fa

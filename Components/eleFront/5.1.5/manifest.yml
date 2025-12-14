@@ -1,0 +1,9 @@
+---
+name: eleFront
+version: 5.1.5
+authors:
+- Front, Inc.
+description: Provides components for baking, modifying, and referencing Rhino objects with user defined attributes.
+url: elefront.io
+keywords:
+- guid:c7c8a32d-27ae-4ba2-b4f8-7aab9dcc8f86
